@@ -1,0 +1,54 @@
+.outer {
+    margin: none;
+    box-sizing: border-box;
+    height: 98vh;
+    width: calc(100vw - 2vh);
+    border-color: black;
+    border-style: solid;
+    border-width: 1vh;
+    padding: none;
+}
+
+.counter {
+    position: absolute;
+    box-sizing: border-box;
+    height: 1vh;
+    width: 1vw;
+    background-color: violet;
+    margin-left: 3vw;
+    margin-top: 3vh;
+    z-index: 1;
+}
+
+p {
+    position: absolute;
+    margin: -54vh 38vw;
+    display: none;
+    visibility: hidden;
+    font-size: 60px;
+    color: black;
+    z-index: 1;
+}
+
+button {
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    height: 5vh;
+    width: 15vw;
+    background-color: brown;
+    color: white;
+}
+
+.playAgain {
+    margin: -95vh 77vw;
+    display: none;
+    visibility: hidden;
+}
+
+.design {
+    margin: -95vh 3vw;
+    display: block;
+    visibility: visible;
+}

@@ -1,0 +1,20 @@
+.outer {
+    box-sizing: border-box;
+    height: 98vh;
+    width: 98vw;
+    border-color: black;
+    border-style: solid;
+    border-width: 1vh 1vw;
+}
+
+.endButton {
+    box-sizing: border-box;
+    position: absolute;
+    margin: -100vh 40vw;
+    z-index: 1;
+    text-align: center;
+    height: 5vh;
+    width: 15vw;
+    background-color: brown;
+    color: white;
+}
