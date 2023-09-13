@@ -32,5 +32,5 @@ function removeDuplicates(listName) {
 function end() {
     finalList = removeDuplicates(newList)
     localStorage.setItem("newlist",finalList)
-    location.href="main.html"
+    location.href="index.html"
 }
