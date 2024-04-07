@@ -1,2 +1,1 @@
-# MazeGame
-https://safwan-albeshti.github.io/MazeGame/index.html
+[Link to Website](https://anarchash.github.io/MazeGame/)
